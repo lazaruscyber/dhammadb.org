@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DhammaDB</title>
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/wiki.css">
+</head>
+<body>
+<a class="skip" href="#pageBody">Skip to content</a>
+
+<header class="topbar">
+  <button type="button" class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="sidebar">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <a class="brand" href="#/">
+    <span class="brand-mark"><img src="assets/logo.svg" alt=""></span>
+    <span class="brand-text">
+      <span class="brand-name" data-sitename>DhammaDB</span>
+      <span class="brand-tag" data-tagline></span>
+    </span>
+  </a>
+  <form class="search" id="searchForm" role="search" autocomplete="off">
+    <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <input id="searchInput" type="search" placeholder="Search" aria-label="Search" aria-autocomplete="list" aria-expanded="false" aria-controls="suggest">
+    <kbd class="search-key" title="Press / to search">/</kbd>
+    <button type="submit" class="search-btn">Search</button>
+    <div class="suggest" id="suggest" hidden></div>
+  </form>
+  <nav class="toplinks" aria-label="Site">
+    <a href="#/Special:Random">Random page</a>
+    <a href="#/Help:Contents">Help</a>
+  </nav>
+</header>
+
+<div class="scrim" id="scrim"></div>
+
+<div class="layout" id="page">
+  <aside class="sidebar" id="sidebar" aria-label="Sidebar">
+    <div class="sidebar-inner">
+      <nav class="side-nav" aria-label="Navigation">
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="#/">Main page</a></li>
+          <li><a href="#/Special:AllPages">All pages</a></li>
+          <li><a href="#/Special:Categories">Categories</a></li>
+          <li><a href="#/Special:RecentChanges">Recent changes</a></li>
+          <li><a href="#/Special:Random">Random page</a></li>
+        </ul>
+        <h3>Contribute</h3>
+        <ul>
+          <li><a href="#/Help:Contents">Help</a></li>
+          <li><a href="#/Help:Formatting">Formatting guide</a></li>
+        </ul>
+      </nav>
+      <nav class="side-tools" id="pageTools" aria-label="Page tools" hidden></nav>
+      <nav class="side-toc" id="sideToc" aria-label="Contents" hidden></nav>
+    </div>
+  </aside>
+
+  <main class="main" id="top">
+    <div class="page-head">
+      <h1 class="page-title" id="pageTitle"></h1>
+      <div class="tabs" id="tabs"></div>
+    </div>
+    <div class="page-sub" id="pageSub" hidden></div>
+    <article class="wiki-body" id="pageBody"></article>
+    <div class="catlinks" id="catlinks" hidden></div>
+    <footer class="page-foot">
+      <div id="pageFoot"></div>
+      <div class="site-foot" id="siteFoot"></div>
+    </footer>
+  </main>
+</div>
+
+<script src="assets/marked.min.js"></script>
+<script src="config.js"></script>
+<script src="pages/_bundle.js"></script>
+<script src="assets/wiki.js"></script>
+</body>
+</html>
