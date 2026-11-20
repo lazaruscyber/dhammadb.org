@@ -25,11 +25,11 @@ Next: [[Poṭṭhapāda]]
 
 ## In the calendar
 
-Sāvaṇa is the first month of the rainy season ({{term|vassāna}}). The rains residence of the monks, entered in [[Āsāḷha]], continues throughout it. It has 29 days, follows [[Āsāḷha]] and is followed by [[Poṭṭhapāda]]. Like every month, it contains four uposatha observance days: the eighth day of the waxing moon, the full moon, the eighth day of the waning moon and the new moon.
+Sāvaṇa is the first month of the rainy season ({{term|vassāna}}). The rains residence of the bhikkhus, entered in [[Āsāḷha]], continues throughout it. It has 29 days, follows [[Āsāḷha]] and is followed by [[Poṭṭhapāda]]. Like every month, it contains four uposatha observance days: the eighth day of the waxing moon, the full moon, the eighth day of the waning moon and the new moon.
 
 ## The later rains residence
 
-The Vinaya allows a monk who could not enter the rains residence on the day after the full moon of Āsāḷha to enter the later rains residence ({{term|pacchimikā}}) one month afterwards, on the day after the full moon of Sāvaṇa. The later residence then ends at the full moon of [[Kattikā]].[^vin3]
+The Vinaya allows a bhikkhu who could not enter the rains residence on the day after the full moon of Āsāḷha to enter the later rains residence ({{term|pacchimikā}}) one month afterwards, on the day after the full moon of Sāvaṇa. The later residence then ends at the full moon of [[Kattikā]].[^vin3]
 
 ## See also
 

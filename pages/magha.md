@@ -29,12 +29,12 @@ Māgha has 29 days and belongs to the cold season ({{term|hemanta}}), one of the
 
 ## Events
 
-**The fourfold assembly.** According to the commentaries, on the full-moon day of Māgha in the first year after the awakening, 1,250 monks came together at the Bamboo Grove ({{term|Veḷuvana}}) in Rājagaha, where the Blessed One recited the Ovāda Pāṭimokkha, the exhortation that sums up the teaching.[^dn14a] The assembly is called fourfold ({{term|cāturaṅgika}}) because:
+**The fourfold assembly.** According to the commentaries, on the full-moon day of Māgha in the first year after the awakening, 1,250 bhikkhus came together at the Bamboo Grove ({{term|Veḷuvana}}) in Rājagaha, where the Blessed One recited the Ovāda Pāṭimokkha, the exhortation that sums up the teaching.[^dn14a] The assembly is called fourfold ({{term|cāturaṅgika}}) because:
 
 1. it took place on the full moon of Māgha;
-2. the monks gathered without being summoned;
+2. the bhikkhus gathered without being summoned;
 3. all of them were arahants;
-4. all had been ordained by the Blessed One with the words "Come, monk".
+4. all had been ordained by the Blessed One with the words "Come, bhikkhu".
 
 **The relinquishing of the life process.** At the Cāpāla shrine near Vesālī the Blessed One relinquished the life process ({{term|āyusaṅkhāra}}) and announced that the parinibbāna would take place in three months.[^dn16] Since the parinibbāna fell on the full moon of [[Vesākha]], the commentarial tradition places this event on the full moon of Māgha.[^dn16a]
 

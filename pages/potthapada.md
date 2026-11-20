@@ -25,7 +25,7 @@ Next: [[Assayuja]]
 
 ## In the calendar
 
-Poṭṭhapāda falls in the middle of the rainy season ({{term|vassāna}}), while the monks keep the rains residence. It has 30 days, follows [[Sāvaṇa]] and is followed by [[Assayuja]]. Like every month, it contains four uposatha observance days: the eighth day of the waxing moon, the full moon, the eighth day of the waning moon and the new moon.
+Poṭṭhapāda falls in the middle of the rainy season ({{term|vassāna}}), while the bhikkhus keep the rains residence. It has 30 days, follows [[Sāvaṇa]] and is followed by [[Assayuja]]. Like every month, it contains four uposatha observance days: the eighth day of the waxing moon, the full moon, the eighth day of the waning moon and the new moon.
 
 ## Observances
 

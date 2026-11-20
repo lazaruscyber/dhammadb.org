@@ -25,7 +25,7 @@ Next: [[Māgasira]]
 
 ## In the calendar
 
-Kattikā is the last month of the rainy season ({{term|vassāna}}). Monks who entered the later rains residence in [[Sāvaṇa]] complete it with the Pavāraṇā on the full moon of Kattikā.[^vin4] For those who kept the earlier residence, this month is the robe season, the time within which the kathina robe may be offered and made.[^vin7] It has 30 days, follows [[Assayuja]] and is followed by [[Māgasira]]. Like every month, it contains four uposatha observance days: the eighth day of the waxing moon, the full moon, the eighth day of the waning moon and the new moon.
+Kattikā is the last month of the rainy season ({{term|vassāna}}). Bhikkhus who entered the later rains residence in [[Sāvaṇa]] complete it with the Pavāraṇā on the full moon of Kattikā.[^vin4] For those who kept the earlier residence, this month is the robe season, the time within which the kathina robe may be offered and made.[^vin7] It has 30 days, follows [[Assayuja]] and is followed by [[Māgasira]]. Like every month, it contains four uposatha observance days: the eighth day of the waxing moon, the full moon, the eighth day of the waning moon and the new moon.
 
 ## Events
 

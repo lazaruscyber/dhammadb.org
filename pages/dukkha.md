@@ -99,7 +99,7 @@ When one sees with wisdom that all formations are suffering, one becomes disench
 
 The characteristic applies to formations ({{term|saṅkhārā}}), that is, to everything conditioned. [[Nibbāna]], being unconditioned, is not suffering.
 
-In the second discourse, the [[Anattalakkhaṇa Sutta]], the Blessed One asked the five monks whether each of the aggregates is permanent or impermanent, and whether what is impermanent is suffering or happiness. They answered that it is suffering, and so came to see that none of the aggregates is fit to be regarded as "mine", "I" or "my self".[^sn2259]
+In the second discourse, the [[Anattalakkhaṇa Sutta]], the Blessed One asked the five bhikkhus whether each of the aggregates is permanent or impermanent, and whether what is impermanent is suffering or happiness. They answered that it is suffering, and so came to see that none of the aggregates is fit to be regarded as "mine", "I" or "my self".[^sn2259]
 
 ## Pleasure and suffering
 
@@ -109,7 +109,7 @@ The suttas analyse each aggregate in terms of its gratification ({{term|assāda}
 
 ## Suffering in the round of rebirth
 
-The suffering of a single life is only a small part of the suffering of the round of rebirth ({{term|saṃsāra}}), whose beginning cannot be discovered. The Blessed One asked the monks which was greater: the tears they had shed while wandering on through this long course, weeping at union with the disliked and separation from the liked, or the water of the four great oceans. The tears, they answered, were greater, and the Blessed One confirmed it. Such a long experience of suffering, the Teacher said, is enough to become disenchanted with all formations and to be released from them.[^sn153]
+The suffering of a single life is only a small part of the suffering of the round of rebirth ({{term|saṃsāra}}), whose beginning cannot be discovered. The Blessed One asked the bhikkhus which was greater: the tears they had shed while wandering on through this long course, weeping at union with the disliked and separation from the liked, or the water of the four great oceans. The tears, they answered, were greater, and the Blessed One confirmed it. Such a long experience of suffering, the Teacher said, is enough to become disenchanted with all formations and to be released from them.[^sn153]
 
 ## Understanding suffering
 

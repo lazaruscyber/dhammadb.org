@@ -58,11 +58,11 @@ Virtue is undertaken in sets of training rules ({{term|sikkhāpada}}) suited to 
 
 **The ten precepts** are kept by novices ({{term|sāmaṇera}}), who also refrain from accepting gold and silver.
 
-**The Pātimokkha** is the code of training rules for fully ordained monks and nuns, laid down in the Vinaya Piṭaka and recited on the Uposatha days.
+**The Pātimokkha** is the code of training rules for fully ordained bhikkhus and nuns, laid down in the Vinaya Piṭaka and recited on the Uposatha days.
 
 ## The fourfold purity of virtue
 
-The commentaries describe the virtue of a monk as fourfold purity ({{term|catupārisuddhi-sīla}}):[^vism1]
+The commentaries describe the virtue of a bhikkhu as fourfold purity ({{term|catupārisuddhi-sīla}}):[^vism1]
 
 1. **Restraint according to the Pātimokkha** ({{term|pātimokkha-saṃvara}}): keeping the monastic training rules.
 2. **Restraint of the sense faculties** ({{term|indriya-saṃvara}}): guarding the eye, ear, nose, tongue, body and mind so that covetousness and grief do not invade them.

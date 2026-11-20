@@ -56,7 +56,7 @@ The edition of the Sixth Council, held in Yangon from 1954 to 1956, also include
 
 After the parinibbāna of the Blessed One, five hundred arahants led by the Venerable Mahākassapa held the First Council at Rājagaha. The Venerable Upāli was questioned on the Vinaya, and the Venerable Ānanda on the Dhamma. Ānanda recited the discourses, each of which begins with the words *evaṃ me sutaṃ*, "Thus have I heard".[^cv11]
 
-According to the commentaries, each collection was then entrusted to a group of monks to preserve by recitation: the Dīgha Nikāya to the Venerable Ānanda and his pupils, the Majjhima Nikāya to the pupils of the Venerable Sāriputta, the Saṃyutta Nikāya to the Venerable Mahākassapa and his pupils, and the Aṅguttara Nikāya to the Venerable Anuruddha and his pupils.[^dha]
+According to the commentaries, each collection was then entrusted to a group of bhikkhus to preserve by recitation: the Dīgha Nikāya to the Venerable Ānanda and his pupils, the Majjhima Nikāya to the pupils of the Venerable Sāriputta, the Saṃyutta Nikāya to the Venerable Mahākassapa and his pupils, and the Aṅguttara Nikāya to the Venerable Anuruddha and his pupils.[^dha]
 
 ## Commentaries
 

@@ -30,7 +30,7 @@ When one sees with wisdom that all formations are impermanent, one becomes disen
 
 The suttas name three characteristics by which the conditioned ({{term|saṅkhata}}) can be recognised: its arising is seen, its passing away is seen, and its alteration while it persists is seen.[^an347] Whatever is subject to arising is subject to cessation. This was the insight that arose in the Venerable Koṇḍañña at the end of the first discourse: *yaṃ kiñci samudayadhammaṃ, sabbaṃ taṃ nirodhadhammaṃ*, "whatever is subject to arising is all subject to cessation".[^sn5611]
 
-In the [[Anattalakkhaṇa Sutta]] the Blessed One asked the five monks of each aggregate in turn: "Is form permanent or impermanent?" "Impermanent, venerable sir." "Is what is impermanent suffering or happiness?" "Suffering, venerable sir."[^sn2259]
+In the [[Anattalakkhaṇa Sutta]] the Blessed One asked the five bhikkhus of each aggregate in turn: "Is form permanent or impermanent?" "Impermanent, venerable sir." "Is what is impermanent suffering or happiness?" "Suffering, venerable sir."[^sn2259]
 
 ### In the commentaries
 
@@ -56,7 +56,7 @@ The suttas praise the perception of impermanence ({{term|aniccasaññā}}) highl
 
 ## The last words of the Blessed One
 
-At Kusinārā, just before the parinibbāna, the Blessed One gave a final exhortation to the monks about impermanence:
+At Kusinārā, just before the parinibbāna, the Blessed One gave a final exhortation to the bhikkhus about impermanence:
 
 :::quote Mahāparinibbāna Sutta (DN 16)
 *Vayadhammā saṅkhārā, appamādena sampādetha.*

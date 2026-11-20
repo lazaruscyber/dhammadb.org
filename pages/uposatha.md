@@ -1,7 +1,7 @@
 ---
 title: Uposatha
 categories: [Buddhist calendar, Precepts, Practice]
-summary: The Uposatha is the observance day held at each quarter of the moon, when monks recite the Pātimokkha and lay followers keep the eight precepts.
+summary: The Uposatha is the observance day held at each quarter of the moon, when bhikkhus recite the Pātimokkha and lay followers keep the eight precepts.
 image: full-moon.jpg
 ---
 
@@ -15,21 +15,21 @@ English: Observance day
 Each fortnight: The 8th day, and the 14th or 15th day
 Each month: Four days, at the quarters of the moon
 ## Observance
-Monks: Recitation of the Pātimokkha (new and full moon)
+Bhikkhus: Recitation of the Pātimokkha (new and full moon)
 Lay followers: The eight precepts
 :::
 
-The **Uposatha** ({{lang|Pāli|uposatha}}) is the observance day of the Theravāda tradition. It falls on the eighth day of each half of the lunar month and on the last day of each half, the fourteenth or fifteenth: in effect at the new moon, the full moon and the two half moons. On these days monks gather to recite the Pātimokkha, and lay followers undertake the eight precepts, visit monasteries and listen to the Dhamma.
+The **Uposatha** ({{lang|Pāli|uposatha}}) is the observance day of the Theravāda tradition. It falls on the eighth day of each half of the lunar month and on the last day of each half, the fourteenth or fifteenth: in effect at the new moon, the full moon and the two half moons. On these days bhikkhus gather to recite the Pātimokkha, and lay followers undertake the eight precepts, visit monasteries and listen to the Dhamma.
 
 ## Origin
 
-The Vinaya tells how the observance began. While the Blessed One was staying on the Vulture's Peak near Rājagaha, wanderers of other sects used to gather on the fourteenth, fifteenth and eighth days of each fortnight to speak their teachings, and people went to hear them. King Seniya Bimbisāra of Magadha thought it would be good if the Blessed One's monks also gathered on those days, and he put the suggestion to the Blessed One. The Blessed One then allowed the monks to gather on the fourteenth, fifteenth and eighth days of the fortnight.[^mv2]
+The Vinaya tells how the observance began. While the Blessed One was staying on the Vulture's Peak near Rājagaha, wanderers of other sects used to gather on the fourteenth, fifteenth and eighth days of each fortnight to speak their teachings, and people went to hear them. King Seniya Bimbisāra of Magadha thought it would be good if the Blessed One's bhikkhus also gathered on those days, and he put the suggestion to the Blessed One. The Blessed One then allowed the bhikkhus to gather on the fourteenth, fifteenth and eighth days of the fortnight.[^mv2]
 
-At first the monks sat in silence, and people criticised them. The Blessed One then instructed them to speak the Dhamma when they gathered, and later laid down that they should recite the Pātimokkha on the Uposatha day.[^mv2]
+At first the bhikkhus sat in silence, and people criticised them. The Blessed One then instructed them to speak the Dhamma when they gathered, and later laid down that they should recite the Pātimokkha on the Uposatha day.[^mv2]
 
-## The Uposatha of monks
+## The Uposatha of bhikkhus
 
-On the Uposatha of the new moon and the full moon, the fully ordained monks of a monastic boundary ({{term|sīmā}}) assemble to recite the Pātimokkha, the code of training rules. Before the recitation each monk confesses any offences he has committed, so that the assembly is pure.[^mv2] The Vinaya provides for smaller communities: where there are four or more monks the Pātimokkha is recited; where there are two or three they declare their purity to one another; and a monk on his own makes a determination that it is his Uposatha.[^mv2]
+On the Uposatha of the new moon and the full moon, the fully ordained bhikkhus of a monastic boundary ({{term|sīmā}}) assemble to recite the Pātimokkha, the code of training rules. Before the recitation each bhikkhu confesses any offences he has committed, so that the assembly is pure.[^mv2] The Vinaya provides for smaller communities: where there are four or more bhikkhus the Pātimokkha is recited; where there are two or three they declare their purity to one another; and a bhikkhu on his own makes a determination that it is his Uposatha.[^mv2]
 
 ## The Uposatha of lay followers
 

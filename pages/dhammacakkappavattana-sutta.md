@@ -1,13 +1,13 @@
 ---
 title: Dhammacakkappavattana Sutta
 categories: [Saṃyutta Nikāya, Vinaya Piṭaka, Core teachings]
-summary: The Dhammacakkappavattana Sutta is the first discourse of the Buddha, given to the group of five monks at the Deer Park at Isipatana, in which the Blessed One taught the Middle Way and the Four Noble Truths.
+summary: The Dhammacakkappavattana Sutta is the first discourse of the Buddha, given to the group of five bhikkhus at the Deer Park at Isipatana, in which the Blessed One taught the Middle Way and the Four Noble Truths.
 image: dhammacakkappavattana-sutta.jpg
 ---
 
 :::infobox Dhammacakkappavattana Sutta
 image: dhammacakkappavattana-sutta.jpg
-caption: The Buddha teaching the group of five monks in the Deer Park at Isipatana
+caption: The Buddha teaching the group of five bhikkhus in the Deer Park at Isipatana
 Pāli: {{term|Dhammacakkappavattana Sutta}}
 Meaning: The Discourse on Setting in Motion the Wheel of the Dhamma
 ## Location in the canon
@@ -16,14 +16,14 @@ Vinaya Piṭaka: Mahāvagga I.6
 ## Occasion
 Place: Deer Park ({{term|Migadāya}}) at Isipatana, near Bārāṇasī
 Time: Full moon of Āsāḷha, at sunset (commentary)
-Listeners: The group of five monks ({{term|pañcavaggiyā bhikkhū}})
+Listeners: The group of five bhikkhus ({{term|pañcavaggiyā bhikkhū}})
 First to understand: Koṇḍañña
 ## Teaching
 Subjects: The [[Noble Eightfold Path|Middle Way]] and the [[Four Noble Truths]]
 Followed by: [[Anattalakkhaṇa Sutta]]
 :::
 
-The **Dhammacakkappavattana Sutta** ({{lang|Pāli|Dhammacakkappavattana Sutta}}), "The Discourse on Setting in Motion the Wheel of the Dhamma", is the first discourse given by the Buddha after the awakening. The Blessed One taught it to the group of five monks in the Deer Park at Isipatana, near Bārāṇasī.[^sn] In it the Tathāgata rejects the two extremes of sensual indulgence and self-torment, makes known the Middle Way, which is the [[Noble Eightfold Path]], and sets out the [[Four Noble Truths]] in their three phases and twelve aspects. At the end of the discourse the Venerable Koṇḍañña gained the vision of the Dhamma and became the first of the Buddha's disciples to attain the path.[^sn]
+The **Dhammacakkappavattana Sutta** ({{lang|Pāli|Dhammacakkappavattana Sutta}}), "The Discourse on Setting in Motion the Wheel of the Dhamma", is the first discourse given by the Buddha after the awakening. The Blessed One taught it to the group of five bhikkhus in the Deer Park at Isipatana, near Bārāṇasī.[^sn] In it the Tathāgata rejects the two extremes of sensual indulgence and self-torment, makes known the Middle Way, which is the [[Noble Eightfold Path]], and sets out the [[Four Noble Truths]] in their three phases and twelve aspects. At the end of the discourse the Venerable Koṇḍañña gained the vision of the Dhamma and became the first of the Buddha's disciples to attain the path.[^sn]
 
 The discourse is preserved in two places in the [[Tipiṭaka]]: in the Sutta Piṭaka as the eleventh discourse of the Saccasaṃyutta of the [[Saṃyutta Nikāya]], and in the Vinaya Piṭaka, where the Mahāvagga includes it in its account of the first events after the awakening.[^mv]
 
@@ -31,13 +31,13 @@ The discourse is preserved in two places in the [[Tipiṭaka]]: in the Sutta Pi�
 
 {{see also|Ariyapariyesana Sutta}}
 
-After the awakening beneath the Bodhi tree, the Blessed One considered to whom the Dhamma should first be taught. The Blessed One thought first of Āḷāra Kālāma, the Bodhisatta's former teacher, judging him wise and able to understand it quickly, but a deity informed the Blessed One that Āḷāra Kālāma had died seven days before.[^mn26] The Blessed One then thought of Uddaka Rāmaputta, and learned that he too had died. The Teacher next recalled the group of five monks who had attended the Bodhisatta during the years of striving, and saw that they were living in the Deer Park at Isipatana.[^mn26]
+After the awakening beneath the Bodhi tree, the Blessed One considered to whom the Dhamma should first be taught. The Blessed One thought first of Āḷāra Kālāma, the Bodhisatta's former teacher, judging him wise and able to understand it quickly, but a deity informed the Blessed One that Āḷāra Kālāma had died seven days before.[^mn26] The Blessed One then thought of Uddaka Rāmaputta, and learned that he too had died. The Teacher next recalled the group of five bhikkhus who had attended the Bodhisatta during the years of striving, and saw that they were living in the Deer Park at Isipatana.[^mn26]
 
 On the road between Gayā and the place of awakening the Blessed One met the ascetic Upaka, who asked who the Blessed One's teacher was. The Buddha declared that the Fully Enlightened One had no teacher and had awakened through direct knowledge alone. Upaka answered, "May it be so, friend", shook his head and went off by a side road.[^mn26]
 
-When the five monks saw the Blessed One approaching, they agreed among themselves not to rise in greeting, since they believed the ascetic Gotama had given up the striving and turned to luxury. As the Blessed One came near they could not keep their agreement: one took the Blessed One's bowl and robe, one prepared a seat, and one brought water for the Blessed One's feet. They still addressed the Blessed One by name and as "friend" ({{term|āvuso}}). The Buddha told them not to address the Tathāgata in that way, declared that the Deathless had been attained, and asked whether the Tathāgata had ever spoken to them like this before. When they acknowledged that this had never happened, they became willing to listen.[^mn26]
+When the five bhikkhus saw the Blessed One approaching, they agreed among themselves not to rise in greeting, since they believed the ascetic Gotama had given up the striving and turned to luxury. As the Blessed One came near they could not keep their agreement: one took the Blessed One's bowl and robe, one prepared a seat, and one brought water for the Blessed One's feet. They still addressed the Blessed One by name and as "friend" ({{term|āvuso}}). The Buddha told them not to address the Tathāgata in that way, declared that the Deathless had been attained, and asked whether the Tathāgata had ever spoken to them like this before. When they acknowledged that this had never happened, they became willing to listen.[^mn26]
 
-According to the commentaries, the Buddha began the discourse on the full-moon day of the month of Āsāḷha, as the sun was setting in the west and the full moon was rising in the east. Besides the five monks, a great assembly of devas and eighteen crores (180 million) of Brahmās had gathered to hear it.[^jn][^sa]
+According to the commentaries, the Buddha began the discourse on the full-moon day of the month of Āsāḷha, as the sun was setting in the west and the full moon was rising in the east. Besides the five bhikkhus, a great assembly of devas and eighteen crores (180 million) of Brahmās had gathered to hear it.[^jn][^sa]
 
 ## The discourse
 
@@ -122,11 +122,11 @@ At that moment the sound reached the Brahma world, the ten-thousandfold world-sy
 
 ## After the discourse
 
-Having seen and penetrated the Dhamma and gone beyond doubt, the Venerable Aññā Koṇḍañña asked to receive the going forth and the higher ordination under the Blessed One. The Buddha said, "Come, monk ({{term|ehi bhikkhu}}), the Dhamma is well proclaimed; live the holy life for the complete ending of suffering." That was his ordination, making him the first monk of the Buddha's dispensation.[^mv]
+Having seen and penetrated the Dhamma and gone beyond doubt, the Venerable Aññā Koṇḍañña asked to receive the going forth and the higher ordination under the Blessed One. The Buddha said, "Come, bhikkhu ({{term|ehi bhikkhu}}), the Dhamma is well proclaimed; live the holy life for the complete ending of suffering." That was his ordination, making him the first bhikkhu of the Buddha's dispensation.[^mv]
 
-The Buddha then continued to instruct the remaining four with talks on the Dhamma. While the Blessed One taught, three of the monks went for alms, and the six lived on what they brought back. In this way the vision of the Dhamma arose first in the Venerables Vappa and Bhaddiya, and then in the Venerables Mahānāma and Assaji, and each was ordained in the same way.[^mv] The commentaries relate that the four attained stream-entry one after another on the days following the first discourse, beginning with Vappa on the day after the full moon.[^aa]
+The Buddha then continued to instruct the remaining four with talks on the Dhamma. While the Blessed One taught, three of the bhikkhus went for alms, and the six lived on what they brought back. In this way the vision of the Dhamma arose first in the Venerables Vappa and Bhaddiya, and then in the Venerables Mahānāma and Assaji, and each was ordained in the same way.[^mv] The commentaries relate that the four attained stream-entry one after another on the days following the first discourse, beginning with Vappa on the day after the full moon.[^aa]
 
-On the fifth day after the full moon the Buddha taught the five monks the [[Anattalakkhaṇa Sutta]], the Discourse on the Characteristic of Non-self. At its end all five attained arahantship, and there were then six arahants in the world.[^mv][^aa]
+On the fifth day after the full moon the Buddha taught the five bhikkhus the [[Anattalakkhaṇa Sutta]], the Discourse on the Characteristic of Non-self. At its end all five attained arahantship, and there were then six arahants in the world.[^mv][^aa]
 
 ## Commentarial explanations
 

@@ -16,7 +16,7 @@ Abandons: The perception of self
 First taught in: [[Anattalakkhaṇa Sutta]]
 :::
 
-**Anattā** ({{lang|Pāli|anattā}}), "non-self", is the third of the three characteristics ({{term|tilakkhaṇa}}), together with [[Anicca|impermanence]] and [[Dukkha|suffering]]. It is the teaching that nothing whatever is a self, belongs to a self, or contains a self. The Blessed One set it out systematically in the second discourse, the [[Anattalakkhaṇa Sutta]], at the end of which the five monks attained arahantship.[^sn2259]
+**Anattā** ({{lang|Pāli|anattā}}), "non-self", is the third of the three characteristics ({{term|tilakkhaṇa}}), together with [[Anicca|impermanence]] and [[Dukkha|suffering]]. It is the teaching that nothing whatever is a self, belongs to a self, or contains a self. The Blessed One set it out systematically in the second discourse, the [[Anattalakkhaṇa Sutta]], at the end of which the five bhikkhus attained arahantship.[^sn2259]
 
 :::quote Dhammapada, verse 279
 *Sabbe dhammā anattā ti, yadā paññāya passati;*
@@ -40,7 +40,7 @@ All formations are impermanent; the conditioned are suffering and non-self. Nibb
 
 {{main|Anattalakkhaṇa Sutta}}
 
-The Blessed One gave two lines of reasoning to the five monks at Isipatana:[^sn2259]
+The Blessed One gave two lines of reasoning to the five bhikkhus at Isipatana:[^sn2259]
 
 1. **Lack of control.** If form were self, it would not lead to affliction, and one could have it of form: "Let my form be thus, let my form not be thus." But because form is non-self, it leads to affliction, and one cannot have it so. The same is said of feeling, perception, formations and consciousness.
 2. **Impermanence and suffering.** Each aggregate is impermanent; what is impermanent is suffering; and what is impermanent, suffering and subject to change is not fit to be regarded as "this is mine, this I am, this is my self" ({{term|etaṃ mama, esohamasmi, eso me attā}}).

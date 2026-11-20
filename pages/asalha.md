@@ -21,7 +21,7 @@ Previous: [[Jeṭṭha]]
 Next: [[Sāvaṇa]]
 :::
 
-**Āsāḷha** ({{lang|Pāli|Āsāḷha}}) is the fourth month of the Theravāda lunar calendar in the traditional Pāli listing, falling in about June to July in the Gregorian calendar. Like every month of the calendar, it takes its name from the constellation ({{term|nakkhatta}}) near which the moon is full in that month. Many events of the Buddha's life are associated with its full moon, and the monks' rains residence ({{term|vassa}}) begins on the following day.
+**Āsāḷha** ({{lang|Pāli|Āsāḷha}}) is the fourth month of the Theravāda lunar calendar in the traditional Pāli listing, falling in about June to July in the Gregorian calendar. Like every month of the calendar, it takes its name from the constellation ({{term|nakkhatta}}) near which the moon is full in that month. Many events of the Buddha's life are associated with its full moon, and the bhikkhus' rains residence ({{term|vassa}}) begins on the following day.
 
 ## In the calendar
 
@@ -33,7 +33,7 @@ The commentaries associate several great events with the full-moon day of Āsā�
 
 - **The conception of the Bodhisatta.** At the end of the Āsāḷha festival in Kapilavatthu, Queen Mahāmāyā dreamed that a white elephant entered her side, and the Bodhisatta descended into her womb.[^jn]
 - **The Great Renunciation.** On the full-moon night of Āsāḷha the Bodhisatta left the palace, riding the horse Kanthaka with the charioteer Channa, to go forth into homelessness.[^jn]
-- **The first discourse.** On the full moon of Āsāḷha, two months after the awakening, the Blessed One taught the [[Dhammacakkappavattana Sutta]] to the group of five monks at Isipatana.[^jn]
+- **The first discourse.** On the full moon of Āsāḷha, two months after the awakening, the Blessed One taught the [[Dhammacakkappavattana Sutta]] to the group of five bhikkhus at Isipatana.[^jn]
 - **The Twin Miracle.** At Sāvatthī, on the full moon of Āsāḷha, the Blessed One performed the Twin Miracle ({{term|yamaka-pāṭihāriya}}) and then went to the Tāvatiṃsa heaven, where the Abhidhamma was taught during that rains residence.[^dhpa]
 
 ## The rains residence

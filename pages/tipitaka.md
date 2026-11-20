@@ -18,7 +18,7 @@ The **Tipiṭaka** ({{lang|Pāli|tipiṭaka}}, "three baskets") is the collectio
 
 ### Vinaya Piṭaka
 
-The Basket of Discipline contains the rules of conduct for monks and nuns, with the stories of how each rule came to be laid down.
+The Basket of Discipline contains the rules of conduct for bhikkhus and nuns, with the stories of how each rule came to be laid down.
 
 ### Sutta Piṭaka
 

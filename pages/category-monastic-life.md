@@ -2,4 +2,4 @@
 title: Category:Monastic life
 ---
 
-Pages about the life of monks and nuns.
+Pages about the life of bhikkhus and nuns.

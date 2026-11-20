@@ -29,7 +29,7 @@ Assayuja has 29 days and belongs to the rainy season ({{term|vassāna}}), one of
 
 ## The Pavāraṇā
 
-The earlier rains residence ends on the full-moon day of Assayuja with the Pavāraṇā, the "invitation", at which each monk invites the community to point out any fault seen, heard or suspected in him.[^vin4] Monks who have completed the rains residence then enter the robe season, during which the kathina robe may be offered and made.[^vin7]
+The earlier rains residence ends on the full-moon day of Assayuja with the Pavāraṇā, the "invitation", at which each bhikkhu invites the community to point out any fault seen, heard or suspected in him.[^vin4] Bhikkhus who have completed the rains residence then enter the robe season, during which the kathina robe may be offered and made.[^vin7]
 
 ## Events
 

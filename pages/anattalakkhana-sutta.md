@@ -1,13 +1,13 @@
 ---
 title: Anattalakkhaṇa Sutta
 categories: [Saṃyutta Nikāya, Vinaya Piṭaka, Core teachings]
-summary: The Anattalakkhaṇa Sutta is the second discourse of the Buddha, on the characteristic of non-self, at the end of which the five monks became arahants.
+summary: The Anattalakkhaṇa Sutta is the second discourse of the Buddha, on the characteristic of non-self, at the end of which the five bhikkhus became arahants.
 image: dhammacakkappavattana-sutta.jpg
 ---
 
 :::infobox Anattalakkhaṇa Sutta
 image: dhammacakkappavattana-sutta.jpg
-caption: The Buddha teaching the group of five monks in the Deer Park at Isipatana
+caption: The Buddha teaching the group of five bhikkhus in the Deer Park at Isipatana
 Pāli: {{term|Anattalakkhaṇa Sutta}}
 Meaning: The Discourse on the Characteristic of Non-self
 ## Location in the canon
@@ -16,12 +16,12 @@ Vinaya Piṭaka: Mahāvagga I.6
 ## Occasion
 Place: Deer Park at Isipatana, near Bārāṇasī
 Time: Fifth day after the full moon of [[Āsāḷha]] (commentary)
-Listeners: The group of five monks
+Listeners: The group of five bhikkhus
 Result: All five attained arahantship
 Preceded by: [[Dhammacakkappavattana Sutta]]
 :::
 
-The **Anattalakkhaṇa Sutta** ({{lang|Pāli|Anattalakkhaṇa Sutta}}), "The Discourse on the Characteristic of Non-self", is the second discourse given by the Buddha. The Blessed One taught it to the group of five monks in the Deer Park at Isipatana, near Bārāṇasī, after all five had become stream-enterers. At its end the minds of all five were liberated from the taints, and there were then six arahants in the world.[^mv][^sn2259]
+The **Anattalakkhaṇa Sutta** ({{lang|Pāli|Anattalakkhaṇa Sutta}}), "The Discourse on the Characteristic of Non-self", is the second discourse given by the Buddha. The Blessed One taught it to the group of five bhikkhus in the Deer Park at Isipatana, near Bārāṇasī, after all five had become stream-enterers. At its end the minds of all five were liberated from the taints, and there were then six arahants in the world.[^mv][^sn2259]
 
 ## Background
 
@@ -33,13 +33,13 @@ At the end of the first discourse the Venerable Koṇḍañña gained the vision
 
 ### Form is not self
 
-The Blessed One began with form: "Form, monks, is not self. If form were self, this form would not lead to affliction, and it would be possible to have it of form: 'Let my form be thus; let my form not be thus.' But because form is not self, it leads to affliction, and it is not possible to have it of form: 'Let my form be thus; let my form not be thus.'"[^sn2259] The same was then said of feeling, perception, formations and consciousness.
+The Blessed One began with form: "Form, bhikkhus, is not self. If form were self, this form would not lead to affliction, and it would be possible to have it of form: 'Let my form be thus; let my form not be thus.' But because form is not self, it leads to affliction, and it is not possible to have it of form: 'Let my form be thus; let my form not be thus.'"[^sn2259] The same was then said of feeling, perception, formations and consciousness.
 
 ### The question and answer
 
-The Blessed One then questioned the monks about each of the five aggregates:[^sn2259]
+The Blessed One then questioned the bhikkhus about each of the five aggregates:[^sn2259]
 
-| Question | Answer of the five monks |
+| Question | Answer of the five bhikkhus |
 |---|---|
 | Is form permanent or impermanent? | Impermanent, venerable sir. |
 | Is what is impermanent suffering or happiness? | Suffering, venerable sir. |
@@ -57,7 +57,7 @@ Seeing in this way, the instructed noble disciple becomes disenchanted ({{term|n
 
 ## The result
 
-The five monks delighted in the Blessed One's words, and while the discourse was being spoken their minds were liberated from the taints through non-clinging. The Vinaya records that at that time there were six arahants in the world.[^mv]
+The five bhikkhus delighted in the Blessed One's words, and while the discourse was being spoken their minds were liberated from the taints through non-clinging. The Vinaya records that at that time there were six arahants in the world.[^mv]
 
 ## Significance
 

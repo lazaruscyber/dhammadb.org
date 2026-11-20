@@ -53,7 +53,7 @@ In the first discourse the Blessed One defined the noble truth of the cessation 
 :::quote Udāna 8.3
 *Atthi, bhikkhave, ajātaṃ abhūtaṃ akataṃ asaṅkhataṃ.*
 
-There is, monks, an unborn, unbecome, unmade, unconditioned. If there were not this unborn, unbecome, unmade, unconditioned, no escape would be known here from the born, become, made and conditioned. But since there is an unborn, unbecome, unmade, unconditioned, an escape is known from the born, become, made and conditioned.
+There is, bhikkhus, an unborn, unbecome, unmade, unconditioned. If there were not this unborn, unbecome, unmade, unconditioned, no escape would be known here from the born, become, made and conditioned. But since there is an unborn, unbecome, unmade, unconditioned, an escape is known from the born, become, made and conditioned.
 :::
 
 In the same collection the Blessed One spoke of that base ({{term|āyatana}}) where there is neither earth, water, fire nor air, neither this world nor another world, neither sun nor moon, neither coming nor going, neither arising nor passing away: just this is the end of suffering.[^ud81]
@@ -77,7 +77,7 @@ The commentaries explain "residue" as the aggregates that result from past cling
 Nibbāna is the highest happiness.
 :::
 
-When a monk asked the Venerable Sāriputta how there could be happiness where nothing is felt, the elder answered that just this is the happiness: that nothing is felt there.[^an934]
+When a bhikkhu asked the Venerable Sāriputta how there could be happiness where nothing is felt, the elder answered that just this is the happiness: that nothing is felt there.[^an934]
 
 ### Beyond reckoning
 

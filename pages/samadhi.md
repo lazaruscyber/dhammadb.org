@@ -18,7 +18,7 @@ Manifestation: Non-wavering
 Proximate cause: Happiness ({{term|sukha}})
 :::
 
-**Samādhi** ({{lang|Pāli|samādhi}}) is concentration: the wholesome unification of mind on a single object. It is the second of the three trainings, resting on [[Sīla|virtue]] and supporting [[Paññā|wisdom]]. The Blessed One said: "Develop concentration, monks. One who is concentrated understands things as they really are."[^sn561]
+**Samādhi** ({{lang|Pāli|samādhi}}) is concentration: the wholesome unification of mind on a single object. It is the second of the three trainings, resting on [[Sīla|virtue]] and supporting [[Paññā|wisdom]]. The Blessed One said: "Develop concentration, bhikkhus. One who is concentrated understands things as they really are."[^sn561]
 
 ## In the Noble Eightfold Path
 
