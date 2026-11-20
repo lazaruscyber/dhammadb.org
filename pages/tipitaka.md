@@ -54,6 +54,7 @@ The teachings were first preserved by recitation. According to the Sri Lankan ch
 
 :::navbox Core teachings of the Buddha
 Truths: [[Four Noble Truths]] | [[Dukkha]] | [[Nibbāna]]
+Characteristics: [[Anicca]] | [[Dukkha]] | [[Anattā]]
 Path: [[Noble Eightfold Path]] | [[Sīla]] | [[Samādhi]] | [[Paññā]]
-Texts: [[Tipiṭaka]] | [[Dhammacakkappavattana Sutta]]
+Texts: [[Tipiṭaka]] | [[Dhammacakkappavattana Sutta]] | [[Anattalakkhaṇa Sutta]]
 :::

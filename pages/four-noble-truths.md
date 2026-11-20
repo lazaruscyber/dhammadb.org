@@ -67,6 +67,7 @@ Each truth is paired with a task. Reading them as tasks, rather than as statemen
 
 :::navbox Core teachings of the Buddha
 Truths: [[Four Noble Truths]] | [[Dukkha]] | [[Nibbāna]]
+Characteristics: [[Anicca]] | [[Dukkha]] | [[Anattā]]
 Path: [[Noble Eightfold Path]] | [[Sīla]] | [[Samādhi]] | [[Paññā]]
-Texts: [[Tipiṭaka]] | [[Dhammacakkappavattana Sutta]]
+Texts: [[Tipiṭaka]] | [[Dhammacakkappavattana Sutta]] | [[Anattalakkhaṇa Sutta]]
 :::

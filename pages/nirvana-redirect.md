@@ -1,0 +1,4 @@
+---
+title: Nirvana
+redirect: Nibbāna
+---

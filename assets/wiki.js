@@ -12,7 +12,12 @@
     tagline: 'The free Dhamma encyclopedia',
     mainPage: 'Main Page',
     dateLocale: 'en-GB',
-    aiPolicyPage: 'ai-policy.html',   // the standalone page the AI label links to
+    aiPolicyPage: 'Help:AI Policy',   // the wiki page the AI label links to
+    reviewApi: 'api/review',          // Cloudflare Pages Function that stores peer reviews
+    reviewHelpPage: 'Help:Peer review',
+    reviewHigh: 20,                   // this many confirmations or more: high score
+    reviewMedium: 5,                  // this many or more (below high): medium score
+    reviewPerVersion: true,           // true: score restarts when a page's content changes
     aiByDefault: true                 // articles show the AI label unless their header says  ai: false
   }, window.WIKI_CONFIG || {});
 
@@ -292,6 +297,11 @@
       case 'sitename': return esc(CFG.siteName);
       case 'main': return '<span class="hatnote-inline">Main article: ' + linkList(args) + '</span>';
       case 'see also': return '<span class="hatnote-inline">See also: ' + linkList(args) + '</span>';
+      case 'review icon': {
+        var t = /^(high|medium|low)$/.test(a(0)) ? a(0) : 'low';
+        return '<span class="review-badge tier-' + t + '">' + REVIEW_ICONS[t] + '<span class="rb-text">' + TIER_NAMES[t] + '</span></span>';
+      }
+      case 'review range': return esc(tierRange(/^(high|medium|low)$/.test(a(0)) ? a(0) : 'low'));
       case 'badge': return '<span class="badge">' + inl(args.join('|')) + '</span>';
       default: return '<span class="tpl-missing" title="Unknown template">{{' + esc(inner) + '}}</span>';
     }
@@ -670,7 +680,7 @@
     return !!CFG.aiByDefault;
   }
   function aiBadge() {
-    return '<a class="ai-badge" href="' + esc(CFG.aiPolicyPage) + '" title="This page contains AI-generated content. Read our AI Policy.">' +
+    return '<a class="ai-badge" href="' + hrefFor(CFG.aiPolicyPage) + '" title="This page contains AI-generated content. Read our AI Policy.">' +
       '<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M10 3.5l1.6 4.4a3 3 0 0 0 1.8 1.8L17.8 11.3l-4.4 1.6a3 3 0 0 0-1.8 1.8L10 19.1l-1.6-4.4a3 3 0 0 0-1.8-1.8L2.2 11.3l4.4-1.6a3 3 0 0 0 1.8-1.8z" fill="currentColor"/><path d="M18.5 2.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z" fill="currentColor"/></svg>' +
       '<span>Contains AI-generated content</span></a>';
   }
@@ -684,7 +694,7 @@
     if (opts.from) sub += (sub ? '<br>' : '') + '<span class="redirected">(Redirected from <a href="' + hrefFor(opts.from, '', 'redirect=no') + '">' + esc(opts.from) + '</a>)</span>';
     var html = r.html;
     if (p.isCategory) html += categoryListing(p.title.replace(/^Category:/, ''));
-    if (isArticle(p) && hasAiContent(p)) sub = '<span class="sub-text">' + sub + '</span>' + aiBadge();
+    if (isArticle(p)) sub = '<span class="sub-text">' + sub + '</span><span class="sub-badges">' + reviewBadge() + (hasAiContent(p) ? aiBadge() : '') + '</span>';
     var tocAllowed = p.meta.toc !== false && !isMain;
     setChrome({
       title: p.meta.displaytitle || p.title,
@@ -694,6 +704,137 @@
       catsHtml: catBox(p.cats), foot: footFor(p), tabs: tabsFor(p.title, 'read'),
       tools: toolsFor(p.title, p), isMain: isMain || p.meta.layout === 'main'
     });
+    if (isArticle(p)) setupReview(p);
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Peer review                                                         */
+  /* ------------------------------------------------------------------ */
+
+  var ONLINE = /^https?:$/.test(location.protocol);
+  var reviewRun = 0;
+  var SHIELD = 'M12 2.5l7.5 2.8v5.9c0 4.7-3.2 8.9-7.5 10.3-4.3-1.4-7.5-5.6-7.5-10.3V5.3z';
+  var REVIEW_ICONS = {
+    high: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="' + SHIELD + '" fill="currentColor"/><path d="M8.3 12.2l2.6 2.6 4.9-5.3" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    medium: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="' + SHIELD + '" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 2.5v19c-4.3-1.4-7.5-5.6-7.5-10.3V5.3z" fill="currentColor"/></svg>',
+    low: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="' + SHIELD + '" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 7.8v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.2" r="1.2" fill="currentColor"/></svg>'
+  };
+  var TIER_NAMES = { high: 'Well reviewed', medium: 'Partly reviewed', low: 'Little reviewed' };
+
+  function tierFor(n) { return n >= CFG.reviewHigh ? 'high' : n >= CFG.reviewMedium ? 'medium' : 'low'; }
+  function tierRange(t) {
+    if (t === 'high') return CFG.reviewHigh + ' or more confirmations';
+    if (t === 'medium') return CFG.reviewMedium + ' to ' + (CFG.reviewHigh - 1) + ' confirmations';
+    return '0 to ' + (CFG.reviewMedium - 1) + ' confirmations';
+  }
+  function reviewLabel(n) { return n === 0 ? 'Not yet reviewed' : TIER_NAMES[tierFor(n)] + ' (' + n + ')'; }
+  function reviewKey(p) { return CFG.reviewPerVersion && p.hash ? 'v:' + p.hash : 't:' + keyOf(p.title); }
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* storage unavailable */ } }
+
+  function reviewBadge() {
+    return '<a class="review-badge tier-low is-pending" id="reviewBadge" href="' + hrefFor(CFG.reviewHelpPage) + '" title="Peer-review score: how many readers have confirmed this page is correct.">' +
+      REVIEW_ICONS.low + '<span class="rb-text">' + (ONLINE ? 'Checking reviews\u2026' : 'Review score shown online') + '</span></a>';
+  }
+  function setReviewBadge(n) {
+    var b = $('reviewBadge');
+    if (!b) return;
+    var t = tierFor(n);
+    b.className = 'review-badge tier-' + t;
+    b.innerHTML = REVIEW_ICONS[t] + '<span class="rb-text">' + esc(reviewLabel(n)) + '</span>';
+    b.title = 'Peer-review score: ' + n + (n === 1 ? ' reader has' : ' readers have') + ' confirmed this page is correct.';
+  }
+  function reviewFailed() {
+    var b = $('reviewBadge');
+    if (!b) return;
+    b.classList.remove('is-pending');
+    b.querySelector('.rb-text').textContent = 'Review score unavailable';
+  }
+
+  function setupReview(p) {
+    var run = ++reviewRun;
+    var key = reviewKey(p);
+    var store = 'dhammadb-reviewed:' + key;
+    var done = lsGet(store) === '1';
+
+    if (ONLINE) {
+      fetch(CFG.reviewApi + '?key=' + encodeURIComponent(key), { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (d) {
+          if (run !== reviewRun) return;
+          setReviewBadge(d.count || 0);
+          if (d.reviewed && !done) { done = true; lsSet(store, '1'); if (!box.hidden) render('done'); }
+        })
+        .catch(function () { if (run === reviewRun) reviewFailed(); });
+    }
+
+    var sentinel = document.createElement('div');
+    sentinel.className = 'review-sentinel';
+    var box = document.createElement('section');
+    box.className = 'review-box';
+    box.id = 'peer-review';
+    box.hidden = true;
+    box.setAttribute('aria-live', 'polite');
+    els.body.appendChild(sentinel);
+    els.body.appendChild(box);
+
+    function render(state) {
+      var body;
+      if (state === 'done') {
+        body = '<div class="rv-title">Thank you</div><p>You have confirmed that this page is correct. Your confirmation counts towards its <a href="' + hrefFor(CFG.reviewHelpPage) + '">peer-review score</a>.</p>';
+      } else {
+        body = '<div class="rv-title">Is everything on this page correct?</div>' +
+          '<p>You have reached the end of the page. If you have read it and believe all of the information on it is correct, please confirm. Each reader can confirm a page once, and confirmations make up its <a href="' + hrefFor(CFG.reviewHelpPage) + '">peer-review score</a>.</p>' +
+          (state === 'error' ? '<p class="rv-error">Your confirmation could not be sent. Please try again later.</p>' : '') +
+          (ONLINE ? '' : '<p class="rv-note">Confirmations are recorded on the published website, not when the wiki is opened from a computer.</p>') +
+          '<div class="rv-actions"><button type="button" class="btn btn-primary" data-review="confirm"' + (ONLINE ? '' : ' disabled') + '>Yes, I confirm it is correct</button>' +
+          '<a href="' + hrefFor('Help:Contribute') + '">I found a mistake</a></div>';
+      }
+      box.className = 'review-box' + (state === 'done' ? ' is-done' : '');
+      box.innerHTML = '<div class="rv-icon">' + REVIEW_ICONS.high + '</div><div class="rv-main">' + body + '</div>';
+    }
+
+    box.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-review="confirm"]');
+      if (!btn || btn.disabled) return;
+      btn.disabled = true;
+      btn.textContent = 'Sending\u2026';
+      fetch(CFG.reviewApi, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ key: key, title: p.title })
+      })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (d) {
+          if (run !== reviewRun) return;
+          done = true;
+          lsSet(store, '1');
+          setReviewBadge(d.count || 0);
+          render('done');
+        })
+        .catch(function () { if (run === reviewRun) render('error'); });
+    });
+
+    // The box appears once the reader has reached the end of the article and has
+    // spent long enough on the page to have plausibly read it.
+    var words = (els.body.textContent.match(/\S+/g) || []).length;
+    var minMs = Math.min(180, Math.max(10, words / 230 * 60 * 0.35)) * 1000;
+    var started = Date.now();
+    var reached = false;
+    function reveal() {
+      if (run !== reviewRun || !box.hidden || !reached) return;
+      var wait = minMs - (Date.now() - started);
+      if (wait > 0) { setTimeout(reveal, wait + 50); return; }
+      render(done ? 'done' : 'ask');
+      box.hidden = false;
+    }
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        if (run !== reviewRun) { io.disconnect(); return; }
+        if (entries.some(function (en) { return en.isIntersecting; })) { reached = true; io.disconnect(); reveal(); }
+      });
+      io.observe(sentinel);
+    } else { reached = true; reveal(); }
   }
 
   function viewSource(p, title) {
@@ -736,7 +877,7 @@
     });
     return '<div class="az">' + Object.keys(groups).sort().map(function (L) {
       return '<div class="az-group"><div class="az-letter">' + esc(L) + '</div><ul>' + groups[L].map(function (p) {
-        return '<li>' + renderWikiLink(':' + p.title, '') + (p.redirect ? ' <span class="muted">(redirect to ' + renderWikiLink(p.redirect, '') + ')</span>' : '') + '</li>';
+        return '<li>' + renderWikiLink(':' + p.title + (p.isCategory ? '|' + p.title.replace(/^Category:/, '') : ''), '') + (p.redirect ? ' <span class="muted">(redirect to ' + renderWikiLink(p.redirect, '') + ')</span>' : '') + '</li>';
       }).join('') + '</ul></div>';
     }).join('') + '</div>';
   }
@@ -774,22 +915,48 @@
       return;
     }
     if (n === 'allpages') {
-      var all = LIST.filter(function (p) { return params.get('redirects') === 'yes' || !p.redirect; });
+      var all = LIST.filter(function (p) { return !p.isCategory && (params.get('redirects') === 'yes' || !p.redirect); });
       return setChrome({
         title: 'All pages',
-        sub: 'Every page on ' + esc(CFG.siteName) + ', alphabetically. ' + (params.get('redirects') === 'yes'
+        sub: 'Every page on ' + esc(CFG.siteName) + ', alphabetically. Categories are listed on <a href="' + hrefFor('Special:Categories') + '">their own page</a>. ' + (params.get('redirects') === 'yes'
           ? '<a href="' + hrefFor('Special:AllPages') + '">Hide redirects</a>'
           : '<a href="' + hrefFor('Special:AllPages', '', 'redirects=yes') + '">Show redirects</a>'),
         html: groupedList(all), toc: false
       });
     }
     if (n === 'categories') {
-      var names = Object.keys(CATS).sort();
+      // Every category that has pages in it or has its own description page.
+      var allCats = {};
+      Object.keys(CATS).forEach(function (c) { allCats[c] = true; });
+      LIST.forEach(function (p) { if (p.isCategory && !p.redirect) allCats[p.title.replace(/^Category:/, '')] = true; });
+      var names = Object.keys(allCats);
+      var byName = function (x, y) { return x.localeCompare(y); };
+      var parentsOf = {}, childrenOf = {};
+      names.forEach(function (c) {
+        var cp = getPage('Category:' + c);
+        parentsOf[c] = cp ? cp.cats.filter(function (x) { return allCats[x] && x !== c; }) : [];
+        parentsOf[c].forEach(function (par) { (childrenOf[par] = childrenOf[par] || []).push(c); });
+      });
+      var memberCount = function (c) { return (CATS[c] || []).filter(function (p) { return !p.isCategory; }).length; };
+      var placed = {};
+      var node = function (c, path) {
+        if (path[c]) return '';
+        placed[c] = true;
+        var next = Object.assign({}, path); next[c] = true;
+        var kids = (childrenOf[c] || []).slice().sort(byName);
+        var n = memberCount(c);
+        return '<li>' + renderWikiLink(':Category:' + c + '|' + c, '') +
+          ' <span class="count" title="' + n + (n === 1 ? ' page' : ' pages') + '">' + n + '</span>' +
+          (kids.length ? '<ul>' + kids.map(function (k) { return node(k, next); }).join('') + '</ul>' : '') + '</li>';
+      };
+      var roots = names.filter(function (c) { return !parentsOf[c].length; }).sort(byName);
+      var tree = roots.map(function (c) { return node(c, {}); }).join('');
+      // Categories caught in a loop of parents would otherwise be missed.
+      names.sort(byName).forEach(function (c) { if (!placed[c]) tree += node(c, {}); });
       return setChrome({
-        title: 'Categories', sub: 'All categories used by pages on ' + esc(CFG.siteName) + '.',
-        html: names.length ? '<ul class="cat-index">' + names.map(function (c) {
-          return '<li>' + renderWikiLink(':Category:' + c + '|' + c, '') + ' <span class="count">' + CATS[c].length + '</span></li>';
-        }).join('') + '</ul>' : '<p class="muted">No categories yet.</p>', toc: false
+        title: 'Categories',
+        sub: names.length + ' categories on ' + esc(CFG.siteName) + '. The number beside each is how many pages it contains.',
+        html: names.length ? '<ul class="cat-tree">' + tree + '</ul>' : '<p class="muted">No categories yet.</p>', toc: false
       });
     }
     if (n === 'recentchanges') {
@@ -814,7 +981,7 @@
         title: 'Pages that link to "' + target + '"',
         sub: 'Back to ' + renderWikiLink(':' + target, ''),
         html: linking.length ? '<ul class="page-list">' + linking.map(function (p) {
-          return '<li>' + renderWikiLink(':' + p.title, '') + (p.redirect ? ' <span class="muted">(redirect)</span>' : '') + '</li>';
+          return '<li>' + renderWikiLink(':' + p.title + (p.isCategory ? '|' + p.title.replace(/^Category:/, '') : ''), '') + (p.redirect ? ' <span class="muted">(redirect)</span>' : '') + '</li>';
         }).join('') + '</ul>' : '<p class="muted">No pages link to ' + esc(target) + '.</p>', toc: false
       });
     }
